@@ -30,8 +30,6 @@ public class DemoService {
             account.setName("john");
             account.setMobile("13817006323");
             account.setPassword("123456");
-            account.setTimeCreate(new Date());
-            account.setTimeUpdate(new Date());
             account.setLastLoginTime(new Date());
             accountMapper.insert(account);
             orderIds.add(account.getId());

@@ -1,8 +1,6 @@
 package com.smartzhe.demo.domain.dao;
 
-import com.smartzhe.demo.aop.Master;
 import com.smartzhe.demo.domain.entity.Account;
-
 import java.util.List;
 import java.util.Map;
 
@@ -19,7 +17,6 @@ public interface AccountMapper {
      *
      * @param params
      */
-    @Master
     List<Account> findByMap(Map params);
 
     /**
